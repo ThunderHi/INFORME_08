@@ -96,7 +96,7 @@ int main(){
         t1.calcularPerimetro();
         cout<<"El perimetro del triangulo equilatero es: "<< t1.calcularPerimetro() <<endl;
     }
-    
+    //si se ingresa una opcion diferente a las establecidas
     if(figura != "cir" && figura != "rec" && figura != "cua" && figura != "tri"){
         cout<<"opcion no valida, terminando programa...";
     }
