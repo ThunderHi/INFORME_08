@@ -3,6 +3,7 @@ using namespace std;
 
 class Figura{   //Clase abstracta
     public:
+    int area;
     virtual float calcularArea()=0; //Metodo abstracto 
 };
 
