@@ -11,7 +11,7 @@ class Circulo : public Figura {     //Clase Circulo derivada de la clase Figura
     public:
     int radio;
 
-    Circulo(int r) : radio(r) {}
+    Circulo(int r) : radio(r) {} //Constructor
 
     float calcularArea() {      //Implementacion del metodo abtracto de acuerdo a la formula correspondiente del area de la figura
         return 3.14 * radio * radio;
@@ -23,7 +23,7 @@ class Rectangulo : public Figura {  //Clase Rectangulo derivada de la clase Figu
     int altura;
     int base;
 
-    Rectangulo(int altura, int base): altura(altura), base(base) {}
+    Rectangulo(int altura, int base): altura(altura), base(base) {} //Constructor
 
     float calcularArea() {      //Implementacion del metodo abtracto de acuerdo a la formula correspondiente del area de la figura
         return base*altura;
@@ -35,7 +35,7 @@ class Triangulo : public Figura {   //Clase Triangulo derivada de la clase Figur
     int base;
     int altura;
 
-    Triangulo(int altura, int base): base(base), altura(altura){}
+    Triangulo(int altura, int base): base(base), altura(altura){} //Constructor
 
     float calcularArea() {      //Implementacion del metodo abtracto de acuerdo a la formula correspondiente del area de la figura
         return (base*altura)/2;
@@ -46,7 +46,7 @@ class Cuadrado : public Figura {    //Clase Cuadrado derivada de la clase Figura
     public:
     int lado;
 
-    Cuadrado(int lado): lado(lado){}
+    Cuadrado(int lado): lado(lado){} //Constructor
 
     float calcularArea() {      //Implementacion del metodo abtracto de acuerdo a la formula correspondiente del area de la figura
         return (lado*lado);
@@ -58,7 +58,7 @@ class Pentagono : public Figura {   //Clase Pentagono derivada de la clase Figur
     int lado;
     int apotema;
 
-    Pentagono(int lado, int apotema): lado(lado), apotema(apotema){}
+    Pentagono(int lado, int apotema): lado(lado), apotema(apotema){} //Constructor
 
     float calcularArea(){       //Implementacion del metodo abtracto de acuerdo a la formula correspondiente del area de la figura
         return ((5*lado)*apotema)/2;
